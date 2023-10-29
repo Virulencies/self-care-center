@@ -23,7 +23,7 @@ affirmationButtonA.addEventListener("click", () => {
     affirmationHero.src = "https://i.imgur.com/c8QQGFN.png";
     affirmationHero.style.display = "none";
     affirmationHeroA1.style.display = "block";
-    affirmationText.textContent = randomAffirmation;
+    affirmations1.textContent = randomAffirmation;
 });
 
 affirmationButtonB.addEventListener("click", () => {
@@ -31,7 +31,7 @@ affirmationButtonB.addEventListener("click", () => {
     affirmationHero2.src = "https://i.imgur.com/0uDzDXT.png";
     affirmationHero2.style.display = "none";
     affirmationHeroB1.style.display = "block";
-    affirmationText2.textContent = randomAffirmationB
+    affirmations2.textContent = randomAffirmationB
 })
 
 
@@ -58,5 +58,6 @@ var affirmationsB = [
     "This is the part where the world tests you, hero. But it has to happen this way - otherwise, the ending wont feel as rewarding.",
     "Dig deep! Dont let the grind end up grinding you down.",
     "Life will sometimes punch you right in the face. You can lie there for a second, even cry if you need to, but get back on your feet. It's the getting back up that counts.",
-    "Fall down seven times, get back up eight. I'll be right there with you."
+    "Fall down seven times, get back up eight. I'll be right there with you.",
+    "This too shall pass."
 ]
