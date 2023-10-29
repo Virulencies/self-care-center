@@ -13,21 +13,28 @@ var affirmations1 = document.getElementById("here-are-your-affirmations");
 var affirmations2 = document.getElementById("here-are-your-affirmations-2");
 var affirmationHero = document.getElementById("affirmation-hero");
 var affirmationHero2 = document.getElementById("affirmation-hero-2");
+var affirmationHeroA1 = document.getElementById("affirmation-heroA1");
+var affirmationHeroB1 = document.getElementById("affirmation-heroB1");
 
 
 //event listeners
 affirmationButtonA.addEventListener("click", () => {
-    var randomAffirmation = affirmationsA[Math.floor(math.random() * affirmationsA.length)];
-    affirmationHero.src = "imageA1.jpg";
+    var randomAffirmation = affirmationsA[Math.floor(Math.random() * affirmationsA.length)];
+    affirmationHero.src = "https://i.imgur.com/c8QQGFN.png";
+    affirmationHero.style.display = "none";
+    affirmationHeroA1.style.display = "block";
     affirmationText.textContent = randomAffirmation;
-
 });
 
 affirmationButtonB.addEventListener("click", () => {
-    var randomAffirmationB = affirmationsB[Math.floor(math.random() * affirmationsB.length)];
-    affirmationHero2.src = "imageB1.jpg";
+    var randomAffirmationB = affirmationsB[Math.floor(Math.random() * affirmationsB.length)];
+    affirmationHero2.src = "https://i.imgur.com/0uDzDXT.png";
+    affirmationHero2.style.display = "none";
+    affirmationHeroB1.style.display = "block";
     affirmationText2.textContent = randomAffirmationB
 })
+
+
 
 //affirmation arrays
 var affirmationsA = [
