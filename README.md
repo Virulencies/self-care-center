@@ -1,51 +1,25 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
 
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+[//]: <> Barely set foot in the dungeon and already feeling overwhelmed? Feel like giving up? Need a quick pick-me-up? Running on empty and think you're fading fast? All of us - no matter if youre a warrior, a wizard, an archer, a priest, or just you - could use a little motivation from time to time. My site is here to offer you a little boost of confidence and support for whatever you're going through, adventurer! Sometimes, all we need is a little push - and I've got just the thing to help with that! Cycle through a list of affirmations and mantas to help give you that little bit of a confidence boost you need to push through that dungeon, or to let you know it's ok to take a break. After all, all heroes need to rest now and then.
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+[//]: <> Go to github, fork, and clone it down. After that, CD into the project and open the index file! Thats it!
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+[//]: <> (I hope this screenshot works)
+![Burning Low](<Screenshot 2023-10-29 at 8.59.13 AM.png>)
+Behold! A default dark mode with an "Even Darker" mode option available with the click of a button! Complete with buttons that glow only in the darkest mode!
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+[//]: <> I am in mod 1, entering week 4. We've had from Tuesday afternoon until Sunday afternoon to get it done.
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+[//]: <> Just I this time around. https://github.com/Virulencies/self-care-center
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+[//]: <> The learning goals were to be able to apply the culmination of the JS, HTML, and CSS knowledge we;ve learned so far to individually create a functioning webpage that offers affirmations and at least one other technical feature.
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+[//]: <> Generating matching defeatist to triumphant chibi art to use via AI was the first "win" step. Getting the buttons and affirmations to line up under the images was the first technical hurdle I managed to clear. Lastly, getting the glow effect to work the way I wanted it to (only visible in darkest mode) took longer than I would have liked.

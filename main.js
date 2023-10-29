@@ -66,12 +66,15 @@ isDarkestMode = !isDarkestMode;
 var affirmationsA = [
     "Onward! We don't give up out here.",
     "Great! There are still dragons to defeat in the dungeon!",
-    "You got this!",
+    "That's right, fight! Fight until you're where you need to be! Earn your victory!",
     "I knew you weren't done. You've got too much moxie to give up that easily!",
     "Good! Remember: Even small progress is still progress!",
-    "The night is dark and full of terrors - you remain a beacon of light in that darkness",
+    "The night is dark and full of terrors - you remain a beacon of light in that darkness.",
     "That's right - stand firm! Face your challenges with courage!",
-    "Do not lose heart, victory is right around the corner!"
+    "Do not lose heart, victory is right around the corner!",
+    "Look at you go! Seriously, how do you do it? I'm jealous.",
+    "Scale that mountain. Climb that peak. Pry your victory from the jaws of defeat!",
+
 ]
 
 var affirmationsB = [
@@ -85,5 +88,8 @@ var affirmationsB = [
     "Dig deep! Dont let the grind end up grinding you down.",
     "Life will sometimes punch you right in the face. You can lie there for a second, even cry if you need to, but get back on your feet. It's the getting back up that counts.",
     "Fall down seven times, get back up eight. I'll be right there with you.",
-    "This too shall pass."
+    "This too shall pass.",
+    "Take a deep breath. Unclench your jaw. Relax your shoulders. Chill. You've got this.",
+    "When you think your light is going dim, remember this: There is stardust in your veins. You are the child of a star. There is always more to burn."
+
 ]
