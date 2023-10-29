@@ -15,6 +15,7 @@ var affirmationHero = document.getElementById("affirmation-hero");
 var affirmationHero2 = document.getElementById("affirmation-hero-2");
 var affirmationHeroA1 = document.getElementById("affirmation-heroA1");
 var affirmationHeroB1 = document.getElementById("affirmation-heroB1");
+var darkerModeButton = document.getElementById("darker-mode-button");
 
 
 //event listeners
@@ -33,6 +34,25 @@ affirmationButtonB.addEventListener("click", () => {
     affirmationHeroB1.style.display = "block";
     affirmations2.textContent = randomAffirmationB
 })
+
+var isDarkestMode = false;
+darkerModeButton.addEventListener("click", () => {
+    if (isDarkestMode) {
+        document.body.style.backgroundColor = "#121212";
+        darkerModeButton.src = "https://i.imgur.com/RsM3Qre.png";
+        document.querySelectorAll(".button1, .button2").forEach((button) => {
+            button.style.backgroundColor = "darkblue"
+        });
+    } else {
+        document.body.style.backgroundColor = "#000";
+        darkerModeButton.src = "https://i.imgur.com/a2Bzzo6.png";
+        document.querySelectorAll(".button1, .button2").forEach((button) => {
+            button.style.backgroundColor = "#121212"
+        })
+    }
+
+isDarkestMode = !isDarkestMode;    
+});
 
 
 

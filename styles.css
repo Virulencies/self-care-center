@@ -11,6 +11,8 @@ black - #000000;
 body {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    background-color: #121212;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,6 +78,19 @@ body {
     background-color: darkblue;
     color: darkslateblue;
     border: none;
+    border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
   }
+
+  #darker-mode-button {
+    cursor: pointer;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.button1, .button2 {
+    background-color: darkblue;
+}
