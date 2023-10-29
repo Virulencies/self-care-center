@@ -93,4 +93,10 @@ body {
 
 .button1, .button2 {
     background-color: darkblue;
+    box-shadow: none;
+}
+
+
+.lantern-mode .button1, .lantern-mode .button2 {
+    box-shadow: 0 0 20px rgba(127, 237, 124, 0.7);
 }

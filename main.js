@@ -16,6 +16,7 @@ var affirmationHero2 = document.getElementById("affirmation-hero-2");
 var affirmationHeroA1 = document.getElementById("affirmation-heroA1");
 var affirmationHeroB1 = document.getElementById("affirmation-heroB1");
 var darkerModeButton = document.getElementById("darker-mode-button");
+var bothButtons = document.querySelectorAll(".button1, .button2");
 
 
 //event listeners
@@ -41,13 +42,18 @@ darkerModeButton.addEventListener("click", () => {
         document.body.style.backgroundColor = "#121212";
         darkerModeButton.src = "https://i.imgur.com/RsM3Qre.png";
         document.querySelectorAll(".button1, .button2").forEach((button) => {
-            button.style.backgroundColor = "darkblue"
-        });
+            button.style.backgroundColor = "darkblue";
+
+            document.body.classList.remove("lantern-mode");
+            
+    });
     } else {
         document.body.style.backgroundColor = "#000";
         darkerModeButton.src = "https://i.imgur.com/a2Bzzo6.png";
         document.querySelectorAll(".button1, .button2").forEach((button) => {
             button.style.backgroundColor = "#121212"
+
+            document.body.classList.add("lantern-mode");    
         })
     }
 
